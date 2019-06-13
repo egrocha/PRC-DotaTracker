@@ -1,0 +1,2189 @@
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_0
+	:item_0 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 0 ;
+	:name "empty" ;
+	:localized_name "Empty" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1
+	:item_1 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1 ;
+	:name "blink" ;
+	:description "Blink Dagger cannot be used for 3 seconds after taking damage from an enemy hero or Roshan." ;
+	:notes "Self-casting will cause you to teleport in the direction of your team's fountain. If you used Blink to teleport to a distance over the maximum range, you'll be teleported 4/5 of the maximum range instead." ;
+	:lore "The fabled dagger used by the fastest assassin ever to walk the lands." ;
+	:localized_name "Blink Dagger" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_2
+	:item_2 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 2 ;
+	:name "blades_of_attack" ;
+	:lore "The damage of these small, concealable blades should not be underestimated." ;
+	:localized_name "Blades of Attack" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_3
+	:item_3 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 3 ;
+	:name "broadsword" ;
+	:lore "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies." ;
+	:localized_name "Broadsword" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_4
+	:item_4 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 4 ;
+	:name "chainmail" ;
+	:lore "A medium weave of metal chains." ;
+	:localized_name "Chainmail" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_5
+	:item_5 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 5 ;
+	:name "claymore" ;
+	:lore "A sword that can cut through armor, it's a commonly chosen first weapon for budding swordsmen." ;
+	:localized_name "Claymore" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_6
+	:item_6 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 6 ;
+	:name "helm_of_iron_will" ;
+	:lore "The helmet of a legendary warrior who fell in battle." ;
+	:localized_name "Helm of Iron Will" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_7
+	:item_7 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 7 ;
+	:name "javelin" ;
+	:description "Grants each attack a 25% chance to pierce through evasion and deal 100 bonus magical damage." ;
+	:lore "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack." ;
+	:localized_name "Javelin" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_8
+	:item_8 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 8 ;
+	:name "mithril_hammer" ;
+	:lore "A hammer forged of pure mithril." ;
+	:localized_name "Mithril Hammer" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_9
+	:item_9 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 9 ;
+	:name "platemail" ;
+	:lore "Thick metal plates that protect the entire upper body. Avoid dropping on feet." ;
+	:localized_name "Platemail" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_10
+	:item_10 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 10 ;
+	:name "quarterstaff" ;
+	:lore "A basic staff that allows you to strike quickly." ;
+	:localized_name "Quarterstaff" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_11
+	:item_11 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 11 ;
+	:name "quelling_blade" ;
+	:description "
+ Increases attack damage against non-hero units by 24 for melee heroes, and 7 for ranged." ;
+	:notes "Effects of multiple quelling blades do not stack. Chop can be used to destroy Techies' Remote Mines." ;
+	:lore "The axe of a fallen gnome, it allows you to effectively maneuver the forest." ;
+	:localized_name "Quelling Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_12
+	:item_12 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 12 ;
+	:name "ring_of_protection" ;
+	:lore "A glimmering ring that defends its bearer." ;
+	:localized_name "Ring of Protection" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_182
+	:item_182 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 182 ;
+	:name "stout_shield" ;
+	:description "Grants a 50% chance to block 20 damage from incoming attacks on melee heroes, and 9 damage on ranged." ;
+	:notes "Multiple sources of damage block do not stack." ;
+	:lore "One man's wine barrel bottom is another man's shield." ;
+	:localized_name "Stout Shield" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_13
+	:item_13 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 13 ;
+	:name "gauntlets" ;
+	:lore "Studded leather gloves that add brute strength." ;
+	:localized_name "Gauntlets of Strength" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_14
+	:item_14 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 14 ;
+	:name "slippers" ;
+	:lore "Light boots made from spider skin that tingles your senses." ;
+	:localized_name "Slippers of Agility" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_15
+	:item_15 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 15 ;
+	:name "mantle" ;
+	:lore "A beautiful sapphire mantle worn by generations of queens." ;
+	:localized_name "Mantle of Intelligence" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_16
+	:item_16 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 16 ;
+	:name "branches" ;
+	:description "Range: 400" ;
+	:lore "A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer." ;
+	:localized_name "Iron Branch" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_17
+	:item_17 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 17 ;
+	:name "belt_of_strength" ;
+	:lore "A valued accessory for improving vitality." ;
+	:localized_name "Belt of Strength" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_18
+	:item_18 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 18 ;
+	:name "boots_of_elves" ;
+	:lore "A tensile fabric often used for its light weight and ease of movement." ;
+	:localized_name "Band of Elvenskin" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_19
+	:item_19 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 19 ;
+	:name "robe" ;
+	:lore "This robe corrupts the soul of the user, but provides wisdom in return." ;
+	:localized_name "Robe of the Magi" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_20
+	:item_20 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 20 ;
+	:name "circlet" ;
+	:lore "An elegant circlet designed for human princesses." ;
+	:localized_name "Circlet" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_21
+	:item_21 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 21 ;
+	:name "ogre_axe" ;
+	:lore "You grow stronger just by holding it." ;
+	:localized_name "Ogre Axe" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_22
+	:item_22 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 22 ;
+	:name "blade_of_alacrity" ;
+	:lore "A long blade imbued with time magic." ;
+	:localized_name "Blade of Alacrity" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_23
+	:item_23 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 23 ;
+	:name "staff_of_wizardry" ;
+	:lore "A staff of magical powers passed down from the eldest mages." ;
+	:localized_name "Staff of Wizardry" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_24
+	:item_24 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 24 ;
+	:name "ultimate_orb" ;
+	:lore "A mystical orb containing the essence of life." ;
+	:localized_name "Ultimate Orb" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_25
+	:item_25 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 25 ;
+	:name "gloves" ;
+	:lore "A pair of magical gloves that seems to render weapons weightless." ;
+	:localized_name "Gloves of Haste" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_26
+	:item_26 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 26 ;
+	:name "lifesteal" ;
+	:description "Heals the attacker for 15% of attack damage dealt." ;
+	:lore "A mask that drains the energy of those caught in its gaze." ;
+	:localized_name "Morbid Mask" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_27
+	:item_27 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 27 ;
+	:name "ring_of_regen" ;
+	:notes "Ring of Regen is shareable." ;
+	:lore "This ring is considered a good luck charm among the Gnomes." ;
+	:localized_name "Ring of Regen" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_28
+	:item_28 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 28 ;
+	:name "sobi_mask" ;
+	:notes "Sage's Mask is shareable." ;
+	:lore "A mask commonly used by mages and warlocks for various rituals." ;
+	:localized_name "Sage's Mask" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_29
+	:item_29 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 29 ;
+	:name "boots" ;
+	:description "Movement speed bonuses from multiple pairs of boots do not stack." ;
+	:lore "Fleet footwear, increasing movement." ;
+	:localized_name "Boots of Speed" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_30
+	:item_30 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 30 ;
+	:name "gem" ;
+	:description "
+ " ;
+	:notes "Disabled while on a courier." ;
+	:lore "Not one thrall creature of the depths,
+Nor spirit bound in drowning's keep,
+Nor Maelrawn the Tentacular,
+Shall rest till seas, gem comes to sleep." ;
+	:localized_name "Gem of True Sight" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_31
+	:item_31 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 31 ;
+	:name "cloak" ;
+	:notes "Stacks multiplicatively with other sources of spell resistance." ;
+	:lore "A cloak made of a magical material that works to dispel any magic cast on it." ;
+	:localized_name "Cloak" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_32
+	:item_32 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 32 ;
+	:name "talisman_of_evasion" ;
+	:notes "Stacks diminishingly with other sources of Evasion." ;
+	:lore "A necklace that allows you to anticipate enemy attacks." ;
+	:localized_name "Talisman of Evasion" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_33
+	:item_33 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 33 ;
+	:name "cheese" ;
+	:localized_name "Cheese" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_34
+	:item_34 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 34 ;
+	:name "magic_stick" ;
+	:description "Max 10 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability." ;
+	:notes "Gains charges for spells cast by visible enemies in 1200 range. Certain abilities and item abilities will not add charges." ;
+	:lore "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike." ;
+	:localized_name "Magic Stick" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_35
+	:item_35 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 35 ;
+	:name "recipe_magic_wand" ;
+	:localized_name "Recipe: Magic Wand" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_36
+	:item_36 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 36 ;
+	:name "magic_wand" ;
+	:description "Max 20 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability." ;
+	:notes "Gains charges for spells cast by visible enemies in 1200 range. Certain abilities and item abilities will not add charges." ;
+	:lore "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike." ;
+	:localized_name "Magic Wand" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_37
+	:item_37 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 37 ;
+	:name "ghost" ;
+	:description "You enter ghost form for 4 seconds, becoming immune to physical damage, but are unable to attack and 40% more vulnerable to magic damage." ;
+	:notes "Ends if you become Spell Immune, and will have no effect if you are already Spell Immune. Shares cooldown with Ethereal Blade." ;
+	:lore "Imbues the wielder with a ghostly presence, allowing them to evade physical damage." ;
+	:localized_name "Ghost Scepter" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_38
+	:item_38 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 38 ;
+	:name "clarity" ;
+	:description "Range: 250" ;
+	:lore "Clear water that enhances the ability to meditate." ;
+	:localized_name "Clarity" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_39
+	:item_39 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 39 ;
+	:name "flask" ;
+	:description "Range: 250" ;
+	:lore "A magical salve that can quickly mend even the deepest of wounds." ;
+	:localized_name "Healing Salve" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_40
+	:item_40 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 40 ;
+	:name "dust" ;
+	:description "Reveals and slows invisible heroes by 20% in a 1050 radius around the caster for 12 seconds." ;
+	:notes "Places a debuff on enemy units in the area that reveals them when they are invisible." ;
+	:lore "One may hide visage, but never volume." ;
+	:localized_name "Dust of Appearance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_41
+	:item_41 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 41 ;
+	:name "bottle" ;
+	:description "
+ Using a stored rune fully refills the Bottle." ;
+	:notes "Bottle is shareable. Stored runes cannot be shared. If Bottle does not have full charges and is placed on a courier, the courier's movespeed will be slowed by 30%." ;
+	:lore "An old bottle that survived the ages, the contents placed inside become enchanted." ;
+	:localized_name "Bottle" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_42
+	:item_42 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 42 ;
+	:name "ward_observer" ;
+	:description "Range: 500" ;
+	:lore "A form of half-sentient plant, often cultivated by apprentice wizards." ;
+	:localized_name "Observer Ward" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_43
+	:item_43 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 43 ;
+	:name "ward_sentry" ;
+	:description "Range: 500" ;
+	:lore "A form of plant originally grown in the garden of a fearful king." ;
+	:localized_name "Sentry Ward" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_44
+	:item_44 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 44 ;
+	:name "tango" ;
+	:description "Ward Range: 450" ;
+	:lore "Forage to survive on the battlefield." ;
+	:localized_name "Tango" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_45
+	:item_45 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 45 ;
+	:name "courier" ;
+	:description "Deploys a creature to carry items to and from your team's base." ;
+	:lore "Losing the courier is punishable by death." ;
+	:localized_name "Animal Courier" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_46
+	:item_46 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 46 ;
+	:name "tpscroll" ;
+	:description "Double-click to teleport to your team's base fountain." ;
+	:notes "If multiple heroes teleport to the same location in succession, the channeling time will be increased for each successive hero. Teleport can be prevented or canceled by Root abilities." ;
+	:lore "What a hero truly needs." ;
+	:localized_name "Town Portal Scroll" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_47
+	:item_47 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 47 ;
+	:name "recipe_travel_boots" ;
+	:localized_name "Recipe: Travel Boots" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_48
+	:item_48 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 48 ;
+	:name "travel_boots" ;
+	:description "
+Movement speed bonuses from multiple pairs of boots do not stack." ;
+	:lore "Winged boots that grant omnipresence." ;
+	:localized_name "Boots of Travel" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_49
+	:item_49 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 49 ;
+	:name "recipe_phase_boots" ;
+	:localized_name "Recipe: Phase Boots" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_50
+	:item_50 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 50 ;
+	:name "phase_boots" ;
+	:description "
+Movement speed bonuses from multiple pairs of boots do not stack." ;
+	:lore "Boots that allow the wearer to travel between the ether." ;
+	:localized_name "Phase Boots" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_51
+	:item_51 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 51 ;
+	:name "demon_edge" ;
+	:lore "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge." ;
+	:localized_name "Demon Edge" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_52
+	:item_52 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 52 ;
+	:name "eagle" ;
+	:lore "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it." ;
+	:localized_name "Eaglesong" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_53
+	:item_53 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 53 ;
+	:name "reaver" ;
+	:lore "A massive axe capable of tearing whole mountains down." ;
+	:localized_name "Reaver" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_54
+	:item_54 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 54 ;
+	:name "relic" ;
+	:lore "An ancient weapon that often turns the tides of war." ;
+	:localized_name "Sacred Relic" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_55
+	:item_55 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 55 ;
+	:name "hyperstone" ;
+	:lore "A mystical, carved stone that boosts the fervor of the holder." ;
+	:localized_name "Hyperstone" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_56
+	:item_56 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 56 ;
+	:name "ring_of_health" ;
+	:notes "Ring of Health is shareable." ;
+	:lore "A shiny ring found beneath a fat halfling's corpse." ;
+	:localized_name "Ring of Health" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_57
+	:item_57 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 57 ;
+	:name "void_stone" ;
+	:notes "Void Stone is shareable." ;
+	:lore "Jewelry that was once used to channel nether realm magic, this ring pulses with energy." ;
+	:localized_name "Void Stone" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_58
+	:item_58 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 58 ;
+	:name "mystic_staff" ;
+	:lore "Enigmatic staff made of only the most expensive crystals." ;
+	:localized_name "Mystic Staff" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_59
+	:item_59 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 59 ;
+	:name "energy_booster" ;
+	:lore "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat." ;
+	:localized_name "Energy Booster" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_60
+	:item_60 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 60 ;
+	:name "point_booster" ;
+	:lore "A perfectly formed amethyst that nourishes body and mind when held." ;
+	:localized_name "Point Booster" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_61
+	:item_61 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 61 ;
+	:name "vitality_booster" ;
+	:lore "A ruby gemstone that has been passed down through generations of warrior kin." ;
+	:localized_name "Vitality Booster" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_62
+	:item_62 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 62 ;
+	:name "recipe_power_treads" ;
+	:localized_name "Recipe: Power Treads" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_63
+	:item_63 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 63 ;
+	:name "power_treads" ;
+	:description "
+Movement speed bonuses from multiple pairs of boots do not stack." ;
+	:notes "Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi." ;
+	:lore "A pair of tough-skinned boots that change to meet the demands of the wearer." ;
+	:localized_name "Power Treads" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_64
+	:item_64 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 64 ;
+	:name "recipe_hand_of_midas" ;
+	:localized_name "Recipe: Hand Of Midas" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_65
+	:item_65 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 65 ;
+	:name "hand_of_midas" ;
+	:description "Range: 600" ;
+	:notes "The gold given is reliable gold (you do not get the normal creep bounty). Experience gained by using Transmute is not shared." ;
+	:lore "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets." ;
+	:localized_name "Hand of Midas" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_66
+	:item_66 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 66 ;
+	:name "recipe_oblivion_staff" ;
+	:localized_name "Recipe: Oblivion Staff" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_67
+	:item_67 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 67 ;
+	:name "oblivion_staff" ;
+	:lore "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it." ;
+	:localized_name "Oblivion Staff" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_68
+	:item_68 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 68 ;
+	:name "recipe_pers" ;
+	:localized_name "Recipe: Pers" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_69
+	:item_69 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 69 ;
+	:name "pers" ;
+	:notes "Perseverance is shareable." ;
+	:lore "A gem that grants heart to the bearer." ;
+	:localized_name "Perseverance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_70
+	:item_70 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 70 ;
+	:name "recipe_poor_mans_shield" ;
+	:localized_name "Recipe: Poor Mans Shield" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_71
+	:item_71 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 71 ;
+	:name "poor_mans_shield" ;
+	:localized_name "Poor Mans Shield" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_72
+	:item_72 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 72 ;
+	:name "recipe_bracer" ;
+	:localized_name "Recipe: Bracer" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_73
+	:item_73 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 73 ;
+	:name "bracer" ;
+	:lore "The bracer is a common choice to toughen up defenses and increase longevity." ;
+	:localized_name "Bracer" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_74
+	:item_74 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 74 ;
+	:name "recipe_wraith_band" ;
+	:localized_name "Recipe: Wraith Band" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_75
+	:item_75 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 75 ;
+	:name "wraith_band" ;
+	:lore "A circlet with faint whispers echoing about it." ;
+	:localized_name "Wraith Band" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_76
+	:item_76 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 76 ;
+	:name "recipe_null_talisman" ;
+	:localized_name "Recipe: Null Talisman" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_77
+	:item_77 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 77 ;
+	:name "null_talisman" ;
+	:lore "A small gemstone attached to several chains." ;
+	:localized_name "Null Talisman" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_78
+	:item_78 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 78 ;
+	:name "recipe_mekansm" ;
+	:localized_name "Recipe: Mekansm" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_79
+	:item_79 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 79 ;
+	:name "mekansm" ;
+	:description "
+ Grants 3.5 health regeneration to allied units in a 1200 radius." ;
+	:notes "Restore does not affect units that have been affected by Restore in the last 25 seconds. Multiple instances of Mekansm Aura do not stack." ;
+	:lore "A glowing jewel formed out of assorted parts that somehow fit together perfectly." ;
+	:localized_name "Mekansm" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_80
+	:item_80 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 80 ;
+	:name "recipe_vladmir" ;
+	:localized_name "Recipe: Vladmir" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_81
+	:item_81 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 81 ;
+	:name "vladmir" ;
+	:description "Radius: 1200" ;
+	:notes "Multiple instances of Vladmir's Aura do not stack." ;
+	:lore "An eerie mask that is haunted with the malice of a fallen vampire." ;
+	:localized_name "Vladmir's Offering" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_84
+	:item_84 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 84 ;
+	:name "flying_courier" ;
+	:localized_name "Flying Courier" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_85
+	:item_85 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 85 ;
+	:name "recipe_buckler" ;
+	:localized_name "Recipe: Buckler" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_86
+	:item_86 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 86 ;
+	:name "buckler" ;
+	:description "Radius: 1200" ;
+	:lore "A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle." ;
+	:localized_name "Buckler" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_87
+	:item_87 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 87 ;
+	:name "recipe_ring_of_basilius" ;
+	:localized_name "Recipe: Ring Of Basilius" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_88
+	:item_88 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 88 ;
+	:name "ring_of_basilius" ;
+	:description "
+ Deactivate aura to stop affecting non-hero units." ;
+	:notes "Multiple instances of Basilius Aura do not stack." ;
+	:lore "Ring given as a reward to the greatest mages." ;
+	:localized_name "Ring of Basilius" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_89
+	:item_89 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 89 ;
+	:name "recipe_pipe" ;
+	:localized_name "Recipe: Pipe" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_90
+	:item_90 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 90 ;
+	:name "pipe" ;
+	:description "
+ Radius: 1200" ;
+	:notes "Multiple instances of Barrier do not stack. Stacks multiplicatively with other sources of magic resistance." ;
+	:lore "A powerful artifact of mysterious origin, it creates barriers against magical forces." ;
+	:localized_name "Pipe of Insight" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_91
+	:item_91 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 91 ;
+	:name "recipe_urn_of_shadows" ;
+	:localized_name "Recipe: Urn Of Shadows" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_92
+	:item_92 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 92 ;
+	:name "urn_of_shadows" ;
+	:description "Cast Range: 950" ;
+	:notes "Empty urns gain 2 charges. If used on a hero with Soul Release already active on them, it will refresh its duration." ;
+	:lore "Contains the ashes of powerful demons." ;
+	:localized_name "Urn of Shadows" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_93
+	:item_93 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 93 ;
+	:name "recipe_headdress" ;
+	:localized_name "Recipe: Headdress" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_94
+	:item_94 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 94 ;
+	:name "headdress" ;
+	:description "Radius: 1200" ;
+	:notes "Multiple instances of Regeneration Aura do not stack." ;
+	:lore "Creates a soothing aura that restores allies in battle." ;
+	:localized_name "Headdress" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_95
+	:item_95 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 95 ;
+	:name "recipe_sheepstick" ;
+	:localized_name "Recipe: Sheepstick" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_96
+	:item_96 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 96 ;
+	:name "sheepstick" ;
+	:description "Range: 800" ;
+	:notes "The target will have a base movement speed of 140, but buffs granting maximum movement speed won't be disabled." ;
+	:lore "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi." ;
+	:localized_name "Scythe of Vyse" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_97
+	:item_97 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 97 ;
+	:name "recipe_orchid" ;
+	:localized_name "Recipe: Orchid" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_98
+	:item_98 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 98 ;
+	:name "orchid" ;
+	:description "Range: 900" ;
+	:lore "A garnet rod constructed from the essence of a fire demon." ;
+	:localized_name "Orchid Malevolence" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_99
+	:item_99 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 99 ;
+	:name "recipe_cyclone" ;
+	:localized_name "Recipe: Cyclone" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_100
+	:item_100 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 100 ;
+	:name "cyclone" ;
+	:description "" ;
+	:notes "You cannot cyclone allies. Cyclones cast on yourself go through spell immunity. Cyclone can purge some buffs and debuffs." ;
+	:lore "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil." ;
+	:localized_name "Eul's Scepter of Divinity" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_101
+	:item_101 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 101 ;
+	:name "recipe_force_staff" ;
+	:localized_name "Recipe: Force Staff" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_102
+	:item_102 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 102 ;
+	:name "force_staff" ;
+	:description "Range: 750" ;
+	:notes "Self-cast will cause you to use Force on yourself. Force Staff doesn't interrupt the target's actions. Will not work on a unit inside Chronosphere, Duel, or Black Hole." ;
+	:lore "Allows you to manipulate others, for good or evil." ;
+	:localized_name "Force Staff" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_103
+	:item_103 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 103 ;
+	:name "recipe_dagon" ;
+	:localized_name "Recipe: Dagon" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_197
+	:item_197 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 197 ;
+	:name "recipe_dagon_2" ;
+	:localized_name "Recipe: Dagon 2" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_198
+	:item_198 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 198 ;
+	:name "recipe_dagon_3" ;
+	:localized_name "Recipe: Dagon 3" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_199
+	:item_199 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 199 ;
+	:name "recipe_dagon_4" ;
+	:localized_name "Recipe: Dagon 4" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_200
+	:item_200 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 200 ;
+	:name "recipe_dagon_5" ;
+	:localized_name "Recipe: Dagon 5" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_104
+	:item_104 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 104 ;
+	:name "dagon" ;
+	:description "Mana Cost: 120" ;
+	:notes "Instantly kills illusions." ;
+	:lore "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user." ;
+	:localized_name "Dagon" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_201
+	:item_201 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 201 ;
+	:name "dagon_2" ;
+	:localized_name "Dagon 2" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_202
+	:item_202 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 202 ;
+	:name "dagon_3" ;
+	:localized_name "Dagon 3" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_203
+	:item_203 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 203 ;
+	:name "dagon_4" ;
+	:localized_name "Dagon 4" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_204
+	:item_204 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 204 ;
+	:name "dagon_5" ;
+	:localized_name "Dagon 5" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_105
+	:item_105 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 105 ;
+	:name "recipe_necronomicon" ;
+	:localized_name "Recipe: Necronomicon" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_191
+	:item_191 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 191 ;
+	:name "recipe_necronomicon_2" ;
+	:localized_name "Recipe: Necronomicon 2" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_192
+	:item_192 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 192 ;
+	:name "recipe_necronomicon_3" ;
+	:localized_name "Recipe: Necronomicon 3" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_106
+	:item_106 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 106 ;
+	:name "necronomicon" ;
+	:description "Aura Radius: 1200" ;
+	:lore "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages." ;
+	:localized_name "Necronomicon" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_193
+	:item_193 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 193 ;
+	:name "necronomicon_2" ;
+	:localized_name "Necronomicon 2" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_194
+	:item_194 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 194 ;
+	:name "necronomicon_3" ;
+	:localized_name "Necronomicon 3" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_107
+	:item_107 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 107 ;
+	:name "recipe_ultimate_scepter" ;
+	:localized_name "Recipe: Ultimate Scepter" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_108
+	:item_108 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 108 ;
+	:name "ultimate_scepter" ;
+	:description "Upgrades the ultimate, and some abilities, of certain heroes." ;
+	:lore "The scepter of a wizard with demigod-like powers." ;
+	:localized_name "Aghanim's Scepter" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_109
+	:item_109 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 109 ;
+	:name "recipe_refresher" ;
+	:localized_name "Recipe: Refresher" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_110
+	:item_110 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 110 ;
+	:name "refresher" ;
+	:description "Resets the cooldowns of all your items and abilities." ;
+	:lore "A powerful artifact created for wizards." ;
+	:localized_name "Refresher Orb" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_111
+	:item_111 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 111 ;
+	:name "recipe_assault" ;
+	:localized_name "Recipe: Assault" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_112
+	:item_112 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 112 ;
+	:name "assault" ;
+	:description "Radius: 1200" ;
+	:notes "Multiple instances of Assault Aura do not stack." ;
+	:lore "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed." ;
+	:localized_name "Assault Cuirass" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_113
+	:item_113 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 113 ;
+	:name "recipe_heart" ;
+	:localized_name "Recipe: Heart" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_114
+	:item_114 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 114 ;
+	:name "heart" ;
+	:description "If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes." ;
+	:lore "Preserved heart of an extinct monster, it bolsters the bearer's fortitude." ;
+	:localized_name "Heart of Tarrasque" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_115
+	:item_115 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 115 ;
+	:name "recipe_black_king_bar" ;
+	:localized_name "Recipe: Black King Bar" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_116
+	:item_116 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 116 ;
+	:name "black_king_bar" ;
+	:description "" ;
+	:notes "Purchasing another Black King Bar will not reset its immunity duration. Using Black King Bar may remove some positive buffs." ;
+	:lore "A powerful staff imbued with the strength of giants." ;
+	:localized_name "Black King Bar" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_117
+	:item_117 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 117 ;
+	:name "aegis" ;
+	:localized_name "Aegis" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_118
+	:item_118 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 118 ;
+	:name "recipe_shivas_guard" ;
+	:localized_name "Recipe: Shivas Guard" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_119
+	:item_119 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 119 ;
+	:name "shivas_guard" ;
+	:description "
+ Radius: 1200" ;
+	:notes "The wave extends at a speed of 350 to a max size of 900. The Arctic Blast follows its caster. Multiple instances of Freezing Aura do not stack." ;
+	:lore "Said to have belonged to a goddess, today it retains much of its former power." ;
+	:localized_name "Shiva's Guard" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_120
+	:item_120 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 120 ;
+	:name "recipe_bloodstone" ;
+	:localized_name "Recipe: Bloodstone" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_121
+	:item_121 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 121 ;
+	:name "bloodstone" ;
+	:description "
+ Each charge provides 0.3 HP and MP regen. Nearby kills provide 1 charges. Dying causes you to lose 3 charges. Starts with 14 charges." ;
+	:lore "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit." ;
+	:localized_name "Bloodstone" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_122
+	:item_122 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 122 ;
+	:name "recipe_sphere" ;
+	:localized_name "Recipe: Sphere" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_123
+	:item_123 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 123 ;
+	:name "sphere" ;
+	:description "
+ Range: 700" ;
+	:lore "This magical sphere once protected one of the most famous heroes in history." ;
+	:localized_name "Linken's Sphere" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_124
+	:item_124 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 124 ;
+	:name "recipe_vanguard" ;
+	:localized_name "Recipe: Vanguard" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_125
+	:item_125 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 125 ;
+	:name "vanguard" ;
+	:description "Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged." ;
+	:notes "Multiple sources of damage block do not stack." ;
+	:lore "A powerful shield that defends its wielder from even the most vicious of attacks." ;
+	:localized_name "Vanguard" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_126
+	:item_126 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 126 ;
+	:name "recipe_blade_mail" ;
+	:localized_name "Recipe: Blade Mail" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_127
+	:item_127 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 127 ;
+	:name "blade_mail" ;
+	:description "For 4.5 seconds, duplicates any damage taken back to the unit that dealt the damage." ;
+	:notes "Damage Return is calculated before any kind of reduction. Damage Return doesn't reflect damage from other forms of Blade Mail. Returned damage type is the same as it was received. Can pierce Spell Immunity if the original damage type does." ;
+	:lore "A razor-sharp coat of mail, it is the choice of selfless martyrs in combat." ;
+	:localized_name "Blade Mail" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_128
+	:item_128 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 128 ;
+	:name "recipe_soul_booster" ;
+	:localized_name "Recipe: Soul Booster" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_129
+	:item_129 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 129 ;
+	:name "soul_booster" ;
+	:lore "Regain lost courage." ;
+	:localized_name "Soul Booster" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_130
+	:item_130 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 130 ;
+	:name "recipe_hood_of_defiance" ;
+	:localized_name "Recipe: Hood Of Defiance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_131
+	:item_131 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 131 ;
+	:name "hood_of_defiance" ;
+	:description "Creates a spell shield that absorbs up to 325 magical damage. Lasts 12 seconds." ;
+	:notes "Stacks multiplicatively with other sources of spell resistance." ;
+	:lore "A furred, magic resistant headpiece that is feared by wizards." ;
+	:localized_name "Hood of Defiance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_132
+	:item_132 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 132 ;
+	:name "recipe_rapier" ;
+	:localized_name "Recipe: Rapier" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_133
+	:item_133 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 133 ;
+	:name "rapier" ;
+	:description "Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up and is killed. A dropped Rapier cannot be picked up by a courier." ;
+	:notes "If Divine Rapier is dropped and picked up by an enemy of its original owner, it cannot be dropped again except by death." ;
+	:lore "So powerful, it cannot have a single owner." ;
+	:localized_name "Divine Rapier" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_134
+	:item_134 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 134 ;
+	:name "recipe_monkey_king_bar" ;
+	:localized_name "Recipe: Monkey King Bar" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_135
+	:item_135 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 135 ;
+	:name "monkey_king_bar" ;
+	:description "Grants each attack a 75% chance to pierce through evasion and deal 100 bonus magical damage." ;
+	:lore "A powerful staff used by a master warrior." ;
+	:localized_name "Monkey King Bar" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_136
+	:item_136 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 136 ;
+	:name "recipe_radiance" ;
+	:localized_name "Recipe: Radiance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_137
+	:item_137 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 137 ;
+	:name "radiance" ;
+	:description "Radius: 700" ;
+	:lore "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies." ;
+	:localized_name "Radiance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_138
+	:item_138 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 138 ;
+	:name "recipe_butterfly" ;
+	:localized_name "Recipe: Butterfly" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_139
+	:item_139 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 139 ;
+	:name "butterfly" ;
+	:notes "Stacks diminishingly with other sources of Evasion." ;
+	:lore "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat." ;
+	:localized_name "Butterfly" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_140
+	:item_140 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 140 ;
+	:name "recipe_greater_crit" ;
+	:localized_name "Recipe: Greater Crit" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_141
+	:item_141 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 141 ;
+	:name "greater_crit" ;
+	:description "Grants each attack a 30% chance to deal 235% damage." ;
+	:notes "Critical Strike does not work against buildings." ;
+	:lore "A weapon of incredible power that is difficult for even the strongest of warriors to control." ;
+	:localized_name "Daedalus" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_142
+	:item_142 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 142 ;
+	:name "recipe_basher" ;
+	:localized_name "Recipe: Basher" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_143
+	:item_143 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 143 ;
+	:name "basher" ;
+	:description "Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 100 bonus magical damage. Bash chance for ranged heroes is 10%." ;
+	:notes "Does not stack with other sources of Bash, however it will stack with Mini-Bash. The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, and Slardar." ;
+	:lore "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated." ;
+	:localized_name "Skull Basher" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_144
+	:item_144 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 144 ;
+	:name "recipe_bfury" ;
+	:localized_name "Recipe: Bfury" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_145
+	:item_145 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 145 ;
+	:name "bfury" ;
+	:description "
+ 
+ Deals 60% of attack damage as physical damage in a cone up to 650 around the target. (Melee Only)" ;
+	:notes "Cleave damage is reduced by armor type but not by armor value. Cleave damage goes through spell immunity. If multiple sources of Cleave are present, each Cleave's damage is applied separately. Chop can be used to destroy Techies' Remote Mines." ;
+	:lore "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once." ;
+	:localized_name "Battle Fury" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_146
+	:item_146 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 146 ;
+	:name "recipe_manta" ;
+	:localized_name "Recipe: Manta" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_147
+	:item_147 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 147 ;
+	:name "manta" ;
+	:description "" ;
+	:notes "Has a 0.1 second cast time during which you are invulnerable. Many effects are removed upon using Manta. Yasha based movement speed bonuses from multiple items do not stack." ;
+	:lore "An axe made of reflective materials that causes confusion amongst enemy ranks." ;
+	:localized_name "Manta Style" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_148
+	:item_148 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 148 ;
+	:name "recipe_lesser_crit" ;
+	:localized_name "Recipe: Lesser Crit" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_149
+	:item_149 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 149 ;
+	:name "lesser_crit" ;
+	:description "Grants each attack a 20% chance to deal 175% damage." ;
+	:notes "Critical Strike does not work against buildings." ;
+	:lore "A blade forged from rare crystals, it seeks weak points in enemy armor." ;
+	:localized_name "Crystalys" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_150
+	:item_150 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 150 ;
+	:name "recipe_armlet" ;
+	:localized_name "Recipe: Armlet" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_151
+	:item_151 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 151 ;
+	:name "armlet" ;
+	:description "You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated." ;
+	:notes "The strength change will affect both maximum and current HP, but you cannot die from the change. The strength change occurs over 0.6 seconds. Activating or deactivating Unholy Strength does not interrupt channeling." ;
+	:lore "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power." ;
+	:localized_name "Armlet of Mordiggian" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_183
+	:item_183 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 183 ;
+	:name "recipe_invis_sword" ;
+	:localized_name "Recipe: Invis Sword" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_152
+	:item_152 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 152 ;
+	:name "invis_sword" ;
+	:description "If attacking to end the invisibility, you gain 175 bonus physical damage on that attack." ;
+	:notes "Has a 0.3 second fade time. If the invisibility ends without attacking, the bonus damage is lost." ;
+	:lore "The blade of a fallen king, it allows you to move unseen and strike from the shadows." ;
+	:localized_name "Shadow Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_153
+	:item_153 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 153 ;
+	:name "recipe_sange_and_yasha" ;
+	:localized_name "Recipe: Sange And Yasha" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_154
+	:item_154 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 154 ;
+	:name "sange_and_yasha" ;
+	:notes "Yasha-based movement speed bonuses from multiple items do not stack." ;
+	:lore "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination." ;
+	:localized_name "Sange and Yasha" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_155
+	:item_155 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 155 ;
+	:name "recipe_satanic" ;
+	:localized_name "Recipe: Satanic" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_156
+	:item_156 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 156 ;
+	:name "satanic" ;
+	:description "
+ Heals the attacker for 25% of attack damage dealt." ;
+	:lore "Immense power at the cost of your soul." ;
+	:localized_name "Satanic" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_157
+	:item_157 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 157 ;
+	:name "recipe_mjollnir" ;
+	:localized_name "Recipe: Mjollnir" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_158
+	:item_158 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 158 ;
+	:name "mjollnir" ;
+	:description "
+ Grants a 25% chance on attack to release a bolt of electricity that leaps between 12 targets within a 900 radius, dealing 170 magical damage to each. Lightning proc pierces evasion." ;
+	:notes "Static Charge cannot trigger more than once per second. Static Charge's shock deals magical damage centered on hero with the Static Charge. Static Charge's targets cannot be more than 900 range away. Static Charge procs will not bounce to heroes that are invisible or hidden by Fog of War." ;
+	:lore "Thor's magical hammer, made for him by the dwarves Brok and Eitri." ;
+	:localized_name "Mjollnir" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_159
+	:item_159 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 159 ;
+	:name "recipe_skadi" ;
+	:localized_name "Recipe: Skadi" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_160
+	:item_160 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 160 ;
+	:name "skadi" ;
+	:description "Lasts %cold_duration_melee% seconds when used by melee heroes, and %cold_duration_ranged% seconds when used by ranged." ;
+	:notes "Lasts 5 seconds with melee Eye of Skadi, 2.5 seconds with ranged Eye of Skadi." ;
+	:lore "Extremely rare artifact, guarded by the azure dragons." ;
+	:localized_name "Eye of Skadi" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_161
+	:item_161 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 161 ;
+	:name "recipe_sange" ;
+	:localized_name "Recipe: Sange" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_162
+	:item_162 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 162 ;
+	:name "sange" ;
+	:lore "Sange is an unusually accurate weapon, seeking weak points automatically." ;
+	:localized_name "Sange" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_163
+	:item_163 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 163 ;
+	:name "recipe_helm_of_the_dominator" ;
+	:localized_name "Recipe: Helm Of The Dominator" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_164
+	:item_164 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 164 ;
+	:name "helm_of_the_dominator" ;
+	:description "
+ Radius: 1200" ;
+	:notes "Cannot dominate more than one unit at a time. If a new unit is dominated, the old one will die. Can also Dominate enemy lane creeps and summoned units. Selling Helm of the Dominator will cause dominated units to die." ;
+	:lore "The powerful headpiece of a dead necromancer." ;
+	:localized_name "Helm of the Dominator" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_165
+	:item_165 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 165 ;
+	:name "recipe_maelstrom" ;
+	:localized_name "Recipe: Maelstrom" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_166
+	:item_166 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 166 ;
+	:name "maelstrom" ;
+	:description "Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 160 magical damage to each. Lightning proc pierces evasion." ;
+	:lore "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning." ;
+	:localized_name "Maelstrom" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_167
+	:item_167 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 167 ;
+	:name "recipe_desolator" ;
+	:localized_name "Recipe: Desolator" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_168
+	:item_168 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 168 ;
+	:name "desolator" ;
+	:description "Your attacks reduce the target's armor by 7 for 15 seconds." ;
+	:notes "Armor reduction works on buildings." ;
+	:lore "A wicked weapon, used in torturing political criminals." ;
+	:localized_name "Desolator" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_169
+	:item_169 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 169 ;
+	:name "recipe_yasha" ;
+	:localized_name "Recipe: Yasha" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_170
+	:item_170 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 170 ;
+	:name "yasha" ;
+	:notes "Yasha-based movement speed bonuses from multiple items do not stack." ;
+	:lore "Yasha is regarded as the swiftest weapon ever created." ;
+	:localized_name "Yasha" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_171
+	:item_171 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 171 ;
+	:name "recipe_mask_of_madness" ;
+	:localized_name "Recipe: Mask Of Madness" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_172
+	:item_172 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 172 ;
+	:name "mask_of_madness" ;
+	:description "
+ Heals the attacker for 20% of attack damage dealt." ;
+	:lore "Once this mask is worn, its bearer becomes an uncontrollable aggressive force." ;
+	:localized_name "Mask of Madness" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_173
+	:item_173 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 173 ;
+	:name "recipe_diffusal_blade" ;
+	:localized_name "Recipe: Diffusal Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_195
+	:item_195 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 195 ;
+	:name "recipe_diffusal_blade_2" ;
+	:localized_name "Recipe: Diffusal Blade 2" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_174
+	:item_174 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 174 ;
+	:name "diffusal_blade" ;
+	:description "
+ Burns 16 mana per attack from melee illusions and 8 mana per attack from ranged illusions." ;
+	:notes "Does not stack with other manabreak abilities." ;
+	:lore "An enchanted blade that allows the user to cut straight into the enemy's soul." ;
+	:localized_name "Diffusal Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_196
+	:item_196 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 196 ;
+	:name "diffusal_blade_2" ;
+	:localized_name "Diffusal Blade 2" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_175
+	:item_175 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 175 ;
+	:name "recipe_ethereal_blade" ;
+	:localized_name "Recipe: Ethereal Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_176
+	:item_176 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 176 ;
+	:name "ethereal_blade" ;
+	:description "Range: 800" ;
+	:notes "Shares cooldown with Ghost Scepter. Ethereal units take 40% bonus magic damage. Lasts an extra second on Self or Allied cast. Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form." ;
+	:lore "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes." ;
+	:localized_name "Ethereal Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_177
+	:item_177 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 177 ;
+	:name "recipe_soul_ring" ;
+	:localized_name "Recipe: Soul Ring" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_178
+	:item_178 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 178 ;
+	:name "soul_ring" ;
+	:description "If the mana gained cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool." ;
+	:notes "If this mana is not used before the duration ends, the extra mana is lost." ;
+	:lore "A ring that feeds on the souls of those who wear it." ;
+	:localized_name "Soul Ring" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_179
+	:item_179 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 179 ;
+	:name "recipe_arcane_boots" ;
+	:localized_name "Recipe: Arcane Boots" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_180
+	:item_180 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 180 ;
+	:name "arcane_boots" ;
+	:description "
+Movement speed bonuses from multiple pairs of boots do not stack." ;
+	:notes "Does not work on Meepo clones." ;
+	:lore "Magi equipped with these boots are valued in battle." ;
+	:localized_name "Arcane Boots" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_181
+	:item_181 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 181 ;
+	:name "orb_of_venom" ;
+	:description "Poisons the target, dealing 5 magical damage per second and slowing movement by 12% if the equipped hero is melee, or 3 magical damage per second and slowing movement by 4% if they are ranged. Lasts for 3 seconds." ;
+	:lore "Envenoms your veapon with the venom of a venomous viper." ;
+	:localized_name "Orb of Venom" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_184
+	:item_184 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 184 ;
+	:name "recipe_ancient_janggo" ;
+	:localized_name "Recipe: Ancient Janggo" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_185
+	:item_185 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 185 ;
+	:name "ancient_janggo" ;
+	:description "Radius: 1200" ;
+	:notes "Re-purchasing the Drum of Endurance recipe will refresh its charges. Multiple instances of Swiftness Aura do not stack." ;
+	:lore "A relic that enchants the bodies of those around it for swifter movement in times of crisis." ;
+	:localized_name "Drum of Endurance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_186
+	:item_186 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 186 ;
+	:name "recipe_medallion_of_courage" ;
+	:localized_name "Recipe: Medallion Of Courage" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_187
+	:item_187 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 187 ;
+	:name "medallion_of_courage" ;
+	:description "Range: 1000" ;
+	:lore "The bearer has no fear of combat." ;
+	:localized_name "Medallion of Courage" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_188
+	:item_188 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 188 ;
+	:name "smoke_of_deceit" ;
+	:description "Disguise grants invisibility that is immune to True Sight." ;
+	:lore "The charlatan wizard Myrddin's only true contribution to the arcane arts." ;
+	:localized_name "Smoke of Deceit" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_189
+	:item_189 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 189 ;
+	:name "recipe_veil_of_discord" ;
+	:localized_name "Recipe: Veil Of Discord" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_190
+	:item_190 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 190 ;
+	:name "veil_of_discord" ;
+	:description "Duration: 16 seconds." ;
+	:lore "The headwear of corrupt magi." ;
+	:localized_name "Veil of Discord" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_205
+	:item_205 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 205 ;
+	:name "recipe_rod_of_atos" ;
+	:localized_name "Recipe: Rod Of Atos" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_206
+	:item_206 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 206 ;
+	:name "rod_of_atos" ;
+	:description "Range: 1100" ;
+	:lore "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand." ;
+	:localized_name "Rod of Atos" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_207
+	:item_207 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 207 ;
+	:name "recipe_abyssal_blade" ;
+	:localized_name "Recipe: Abyssal Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_208
+	:item_208 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 208 ;
+	:name "abyssal_blade" ;
+	:description "
+ 
+ Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged." ;
+	:notes "The stun is melee range. Does not stack with other bashes. The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord. Multiple sources of damage block do not stack." ;
+	:lore "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul." ;
+	:localized_name "Abyssal Blade" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_209
+	:item_209 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 209 ;
+	:name "recipe_heavens_halberd" ;
+	:localized_name "Recipe: Heavens Halberd" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_210
+	:item_210 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 210 ;
+	:name "heavens_halberd" ;
+	:description "Range: 600" ;
+	:lore "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not." ;
+	:localized_name "Heaven's Halberd" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_211
+	:item_211 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 211 ;
+	:name "recipe_ring_of_aquila" ;
+	:localized_name "Recipe: Ring Of Aquila" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_212
+	:item_212 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 212 ;
+	:name "ring_of_aquila" ;
+	:localized_name "Ring Of Aquila" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_213
+	:item_213 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 213 ;
+	:name "recipe_tranquil_boots" ;
+	:localized_name "Recipe: Tranquil Boots" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_214
+	:item_214 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 214 ;
+	:name "tranquil_boots" ;
+	:description "
+Movement speed bonuses from multiple pairs of boots do not stack." ;
+	:lore "While they increase the longevity of the wearer, this boot is not particularly reliable." ;
+	:localized_name "Tranquil Boots" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_215
+	:item_215 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 215 ;
+	:name "shadow_amulet" ;
+	:description "Range: 600" ;
+	:lore "A small talisman that clouds the senses of one's enemies when held perfectly still." ;
+	:localized_name "Shadow Amulet" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_216
+	:item_216 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 216 ;
+	:name "enchanted_mango" ;
+	:description "Range: 400" ;
+	:notes "Hold Control to use on a nearby allied hero." ;
+	:lore "The bittersweet flavors of Jidi Isle are irresistible to amphibians." ;
+	:localized_name "Enchanted Mango" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_218
+	:item_218 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 218 ;
+	:name "ward_dispenser" ;
+	:localized_name "Ward Dispenser" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_220
+	:item_220 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 220 ;
+	:name "travel_boots_2" ;
+	:localized_name "Travel Boots 2" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_226
+	:item_226 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 226 ;
+	:name "lotus_orb" ;
+	:description "" ;
+	:lore "The jewel at its center still reflects a pale image of its creator." ;
+	:localized_name "Lotus Orb" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_229
+	:item_229 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 229 ;
+	:name "solar_crest" ;
+	:description "Range: 1000" ;
+	:lore "A talisman forged to honor the daytime sky." ;
+	:localized_name "Solar Crest" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_231
+	:item_231 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 231 ;
+	:name "guardian_greaves" ;
+	:description "
+ 
+Movement speed bonuses from multiple pairs of boots do not stack." ;
+	:notes "The aura boost only applies to heroes." ;
+	:lore "One of many holy instruments constructed to honor the Omniscience." ;
+	:localized_name "Guardian Greaves" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_235
+	:item_235 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 235 ;
+	:name "octarine_core" ;
+	:description "
+ Lifesteal reduced to 5% against creeps." ;
+	:lore "At the core of spellcraft are spectrums only the very gifted can sense." ;
+	:localized_name "Octarine Core" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_247
+	:item_247 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 247 ;
+	:name "moon_shard" ;
+	:description "
+ Grants 400 bonus night vision." ;
+	:notes "The bonus night vision works during Night Stalker's Darkness ability." ;
+	:lore "Said to be a tear from the lunar goddess Selemene." ;
+	:localized_name "Moon Shard" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_249
+	:item_249 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 249 ;
+	:name "silver_edge" ;
+	:description "Attacking to end the invisibility will deal 175 bonus physical damage to the target, and for 4 seconds, disable their passive abilities." ;
+	:notes "Backstab cannot miss. Backstab does not pierce spell immunity." ;
+	:lore "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath." ;
+	:localized_name "Silver Edge" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_254
+	:item_254 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 254 ;
+	:name "glimmer_cape" ;
+	:description "Can be cast while channelling." ;
+	:lore "The stolen cape of a master illusionist." ;
+	:localized_name "Glimmer Cape" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1000
+	:item_1000 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1000 ;
+	:name "halloween_candy_corn" ;
+	:localized_name "Halloween Candy Corn" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1001
+	:item_1001 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1001 ;
+	:name "mystery_hook" ;
+	:localized_name "Mystery Hook" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1002
+	:item_1002 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1002 ;
+	:name "mystery_arrow" ;
+	:localized_name "Mystery Arrow" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1003
+	:item_1003 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1003 ;
+	:name "mystery_missile" ;
+	:localized_name "Mystery Missile" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1004
+	:item_1004 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1004 ;
+	:name "mystery_toss" ;
+	:localized_name "Mystery Toss" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1005
+	:item_1005 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1005 ;
+	:name "mystery_vacuum" ;
+	:localized_name "Mystery Vacuum" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1006
+	:item_1006 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1006 ;
+	:name "halloween_rapier" ;
+	:localized_name "Halloween Rapier" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1007
+	:item_1007 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1007 ;
+	:name "greevil_whistle" ;
+	:localized_name "Greevil Whistle" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1008
+	:item_1008 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1008 ;
+	:name "greevil_whistle_toggle" ;
+	:localized_name "Greevil Whistle Toggle" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1009
+	:item_1009 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1009 ;
+	:name "present" ;
+	:localized_name "Present" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1010
+	:item_1010 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1010 ;
+	:name "winter_stocking" ;
+	:localized_name "Winter Stocking" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1011
+	:item_1011 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1011 ;
+	:name "winter_skates" ;
+	:localized_name "Winter Skates" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1012
+	:item_1012 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1012 ;
+	:name "winter_cake" ;
+	:localized_name "Winter Cake" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1013
+	:item_1013 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1013 ;
+	:name "winter_cookie" ;
+	:localized_name "Winter Cookie" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1014
+	:item_1014 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1014 ;
+	:name "winter_coco" ;
+	:localized_name "Winter Coco" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1015
+	:item_1015 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1015 ;
+	:name "winter_ham" ;
+	:localized_name "Winter Ham" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1016
+	:item_1016 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1016 ;
+	:name "winter_kringle" ;
+	:localized_name "Winter Kringle" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1017
+	:item_1017 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1017 ;
+	:name "winter_mushroom" ;
+	:localized_name "Winter Mushroom" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1018
+	:item_1018 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1018 ;
+	:name "winter_greevil_treat" ;
+	:localized_name "Winter Greevil Treat" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1019
+	:item_1019 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1019 ;
+	:name "winter_greevil_garbage" ;
+	:localized_name "Winter Greevil Garbage" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_1020
+	:item_1020 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 1020 ;
+	:name "winter_greevil_chewy" ;
+	:localized_name "Winter Greevil Chewy" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_241
+	:item_241 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 241 ;
+	:name "tango_single" ;
+	:localized_name "Tango Single" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_242
+	:item_242 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 242 ;
+	:name "crimson_guard" ;
+	:description "
+ Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged." ;
+	:notes "Multiple sources of damage block do not stack." ;
+	:lore "A cuirass originally built to protect against the dreaded Year Beast." ;
+	:localized_name "Crimson Guard" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_238
+	:item_238 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 238 ;
+	:name "recipe_iron_talon" ;
+	:localized_name "Recipe: Iron Talon" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_239
+	:item_239 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 239 ;
+	:name "iron_talon" ;
+	:localized_name "Iron Talon" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_233
+	:item_233 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 233 ;
+	:name "recipe_aether_lens" ;
+	:localized_name "Recipe: Aether Lens" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_232
+	:item_232 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 232 ;
+	:name "aether_lens" ;
+	:description "Increases targeted spell and item cast range by 250." ;
+	:notes "Passive does not stack." ;
+	:lore "Polished with the incantation of his final breath, the gift of a dying mage to his sickly son." ;
+	:localized_name "Aether Lens" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_234
+	:item_234 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 234 ;
+	:name "recipe_dragon_lance" ;
+	:localized_name "Recipe: Dragon Lance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_236
+	:item_236 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 236 ;
+	:name "dragon_lance" ;
+	:description "Increases attack range of ranged heroes by 140." ;
+	:notes "Passive does not stack." ;
+	:lore "The forward charge of the wyvern host grants no quarter." ;
+	:localized_name "Dragon Lance" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_237
+	:item_237 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 237 ;
+	:name "faerie_fire" ;
+	:description "Instantly restores 85 health." ;
+	:lore "The ethereal flames from the ever-burning ruins of Kindertree ignite across realities." ;
+	:localized_name "Faerie Fire" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_244
+	:item_244 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 244 ;
+	:name "wind_lace" ;
+	:description "Bonuses from multiple Wind Laces do not stack." ;
+	:lore "Hasten to battle on wind-touched heels." ;
+	:localized_name "Wind Lace" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_245
+	:item_245 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 245 ;
+	:name "recipe_bloodthorn" ;
+	:localized_name "Recipe: Bloodthorn" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_250
+	:item_250 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 250 ;
+	:name "bloodthorn" ;
+	:description "
+ Grants a 20% chance for attacks to inflict 175% damage." ;
+	:notes "Critical Strike does not work against buildings." ;
+	:lore "A reviled blade that bites deeper with each wriggle of its victim's final throes." ;
+	:localized_name "Bloodthorn" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_251
+	:item_251 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 251 ;
+	:name "recipe_echo_sabre" ;
+	:localized_name "Recipe: Echo Sabre" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_252
+	:item_252 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 252 ;
+	:name "echo_sabre" ;
+	:description "Causes melee attacks to attack twice in quick succession. The double attacks apply a 100% movement slow for 0.8 seconds on each strike." ;
+	:lore "A deceptively swift blade imbued with resonant magic." ;
+	:localized_name "Echo Sabre" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_257
+	:item_257 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 257 ;
+	:name "tome_of_knowledge" ;
+	:description "Tomes Used By Team: %customval_team_tomes_used%" ;
+	:lore "That which raises beast to man and man to god." ;
+	:localized_name "Tome of Knowledge" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_262
+	:item_262 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 262 ;
+	:name "recipe_hurricane_pike" ;
+	:localized_name "Recipe: Hurricane Pike" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_263
+	:item_263 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 263 ;
+	:name "hurricane_pike" ;
+	:description "
+ Increases attack range of ranged heroes by 140." ;
+	:notes "Self-cast will use Hurricane Pike on yourself. Hurricane Pike doesn't interrupt the target's actions. Will not work on a unit inside Chronosphere, Duel, or Black Hole." ;
+	:lore "A legendary pike once held as royal sigil of the ancient wyvern riders." ;
+	:localized_name "Hurricane Pike" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_240
+	:item_240 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 240 ;
+	:name "blight_stone" ;
+	:description "Your attacks reduce the target's armor by 2 for 8 seconds." ;
+	:lore "An unnerving stone unearthed beneath the Fields of Endless Carnage." ;
+	:localized_name "Blight Stone" .
+
+### http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_265
+	:item_265 rdf:type owl:NamedIndividual ,
+		:Item ;
+	:item_id 265 ;
+	:name "infused_raindrop" ;
+	:description "Comes with 5 charges. When the charges are gone, the item disappears." ;
+	:notes "Uses at most one charge per damage instance." ;
+	:lore "Elemental protection from magical assaults." ;
+	:localized_name "Infused Raindrops" .

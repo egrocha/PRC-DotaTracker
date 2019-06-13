@@ -1,0 +1,311 @@
+@prefix : <http://www.semanticweb.org/d3/ontologies/2019/5/dota#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/d3/ontologies/2019/5/dota> .
+
+<http://www.semanticweb.org/d3/ontologies/2019/5/dota> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#boughtItem
+:boughtItem rdf:type owl:ObjectProperty ;
+            rdfs:domain :PlayerPerformance ;
+            rdfs:range :Item .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#fromMatch
+:fromMatch rdf:type owl:ObjectProperty ;
+           rdfs:domain :PlayerPerformance ;
+           rdfs:range :Match .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#fromPlayer
+:fromPlayer rdf:type owl:ObjectProperty ;
+            rdfs:domain :PlayerPerformance ;
+            rdfs:range :Player .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#hadPerformance
+:hadPerformance rdf:type owl:ObjectProperty ;
+                rdfs:domain :Player ;
+                rdfs:range :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#hasPlayerPerformance
+:hasPlayerPerformance rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Match ;
+                      rdfs:range :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#pickedHero
+:pickedHero rdf:type owl:ObjectProperty ;
+            rdfs:domain :PlayerPerformance ;
+            rdfs:range :Hero .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#winningTeam
+:winningTeam rdf:type owl:ObjectProperty ;
+             rdfs:domain :Match ;
+             rdfs:range :Team .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#account_id
+:account_id rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Player ;
+            rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#assists
+:assists rdf:type owl:DatatypeProperty ;
+         rdfs:domain :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#barracks_status_dire
+:barracks_status_dire rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Match ;
+                      rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#barracks_status_radiant
+:barracks_status_radiant rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Match ;
+                         rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#bio
+:bio rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Hero ;
+     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#cluster
+:cluster rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Match ;
+         rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#deaths
+:deaths rdf:type owl:DatatypeProperty ;
+        rdfs:domain :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#denies
+:denies rdf:type owl:DatatypeProperty ;
+        rdfs:domain :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#description
+:description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Item ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#duration
+:duration rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Match ;
+          rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#early_item
+:early_item rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Hero ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#first_blood_time
+:first_blood_time rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Match ;
+                  rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#game_mode
+:game_mode rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Match ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#gold_per_min
+:gold_per_min rdf:type owl:DatatypeProperty ;
+              rdfs:domain :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#hero_id
+:hero_id rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Hero ;
+         rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#item_id
+:item_id rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Item ;
+         rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#kills
+:kills rdf:type owl:DatatypeProperty ;
+       rdfs:domain :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#last_hits
+:last_hits rdf:type owl:DatatypeProperty ;
+           rdfs:domain :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#late_item
+:late_item rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Hero ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#level
+:level rdf:type owl:DatatypeProperty ;
+       rdfs:domain :PlayerPerformance .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#lobby_type
+:lobby_type rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Match ;
+            rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#localized_name
+:localized_name rdf:type owl:DatatypeProperty ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#lore
+:lore rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Item ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#match_id
+:match_id rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Match ;
+          rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#match_seq_num
+:match_seq_num rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Match ;
+               rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#mid_item
+:mid_item rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Hero ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#negative_votes
+:negative_votes rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Match ;
+                rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#notes
+:notes rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Item ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#player_id
+:player_id rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Player .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#player_slot
+:player_slot rdf:type owl:DatatypeProperty ;
+             rdfs:domain :PlayerPerformance ;
+             rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#positive_votes
+:positive_votes rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Match ;
+                rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#skill
+:skill rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Match ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#start_time
+:start_time rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Match ;
+            rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#starting_item
+:starting_item rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Hero ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#tower_status_dire
+:tower_status_dire rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Match ;
+                   rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#tower_status_radiant
+:tower_status_radiant rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Match ;
+                      rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#xp_per_min
+:xp_per_min rdf:type owl:DatatypeProperty ;
+            rdfs:domain :PlayerPerformance .
+
+
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:domain :Item ;
+                    rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#Hero
+:Hero rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#Item
+:Item rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#Match
+:Match rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#Player
+:Player rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#PlayerPerformance
+:PlayerPerformance rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/d3/ontologies/2019/5/dota#Team
+:Team rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
